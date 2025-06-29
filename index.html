@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MIRAI - Попробуй будущее на вкус</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">MIRAI</div>
+    <nav>
+      <a href="#hero">Главная</a>
+      <a href="#burger">Бургер</a>
+      <a href="#coworking">Коворкинг</a>
+      <a href="#promo">Акция</a>
+      <a href="#process">Процесс</a>
+      <a href="#events">События</a>
+      <a href="#team">Команда</a>
+      <a href="#feedback">Связь</a>
+    </nav>
+    <button class="theme-toggle" onclick="toggleTheme()">Тема</button>
+  </header>
+
+  <section id="hero" class="hero">
+    <h1>MIRAI - Попробуй будущее на вкус</h1>
+  </section>
+
+  <section id="burger" class="burger-release">
+    <div class="timer" id="timer"></div>
+    <div>
+      <h2>Наш новый бургер MIRAIR</h2>
+      <p>Сочетание новейших гастрономических технологий и экологичных ингредиентов.</p>
+      <img src="assets/vobd29dt18251.jpg" alt="MIRAIR Бургер" />
+    </div>
+  </section>
+
+  <section id="coworking" class="coworking">
+    <h2>Наш коворкинг</h2>
+    <p>Инновационное пространство для сотрудников и клиентов.</p>
+    <div class="carousel">
+      <img src="assets/vobd29dt18251.jpg" alt="Коворкинг 1" />
+      <img src="assets/vobd29dt18251.jpg" alt="Коворкинг 2" />
+      <img src="assets/vobd29dt18251.jpg" alt="Коворкинг 3" />
+    </div>
+  </section>
+
+  <section id="promo" class="earn-promo">
+    <h2>Вы едите и зарабатываете</h2>
+    <p>Накопительная система бонусов за каждый заказ, которые можно обменять на новые продукты!</p>
+    <img src="assets/vobd29dt18251.jpg" alt="Акция" />
+  </section>
+
+  <section id="process" class="work-methods">
+    <img src="assets/vobd29dt18251.jpg" alt="1" />
+    <p>Говно</p>
+    <img src="assets/vobd29dt18251.jpg" alt="2" />
+    <p>Круто</p>
+    <img src="assets/vobd29dt18251.jpg" alt="3" />
+    <p>Говно</p>
+    <img src="assets/vobd29dt18251.jpg" alt="4" />
+    <p>Круто</p>
+  </section>
+
+  <section id="events" class="events-grid">
+    <div>Феликс делает сальтуху</div>
+    <div>Феликс без ГПТ</div>
+    <div>хз</div>
+    <div>хз</div>
+  </section>
+
+  <section id="team" class="employee-photos">
+    <div><img src="assets/vobd29dt18251.jpg" alt="" /><p>Арман</p></div>
+    <div><img src="assets/vobd29dt18251.jpg" alt="" /><p>Паша</p></div>
+    <div><img src="assets/vobd29dt18251.jpg" alt="" /><p>Елисей</p></div>
+    <div><img src="assets/vobd29dt18251.jpg" alt="" /><p>Феликс</p></div>
+    <div><img src="assets/vobd29dt18251.jpg" alt="" /><p>Артем</p></div>
+    <div><img src="assets/vobd29dt18251.jpg" alt="" /><p>Миша</p></div>
+    <div><img src="assets/vobd29dt18251.jpg" alt="" /><p>Настя</p></div>
+    <div><img src="assets/vobd29dt18251.jpg" alt="" /><p>Виолетта</p></div>
+    <div><img src="assets/vobd29dt18251.jpg" alt="" /><p>Мелана</p></div>
+    <div><img src="assets/vobd29dt18251.jpg" alt="" /><p>Адам</p></div>
+  </section>
+
+  <section id="feedback" class="feedback-map">
+    <button onclick="showModal()">Оставить предложение</button>
+    <div id="feedbackModal">
+      <p>Спасибо за предложение!</p>
+      <p>Мы прочитали ваши мысли)</p>
+      <button onclick="hideModal()">Закрыть</button>
+    </div>
+    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Af5089d26d7ef607ec1651cb6e3cdbb3d8b34acff9f77d76a4ef67fd0b7dbb6e6&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+  </section>
+
+  <footer>
+    <div class="socials">
+      <a href="#">VK</a>
+      <a href="#">Instagram</a>
+      <a href="#">Telegram</a>
+    </div>
+    <p>&copy; 2025 MIRAI. Все права защищены.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

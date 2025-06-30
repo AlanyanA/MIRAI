@@ -83,13 +83,31 @@ section.visible {
 }
 
 .hero {
-  background: radial-gradient(circle at center, var(--accent-color), transparent 70%);
+  /* background: radial-gradient(circle at center, var(--accent-color), transparent 70%); */
+  background-image: url(assets/3f4b5759-30d3-481e-b569-e5b072a31379.jpeg);
+  background-repeat: repeat-x;
+  background-size: contain;
+
+      /* Начальная позиция фона */
+  background-position: 0 0;
+
+      /* Анимация */
+  animation: moveBackground 20s linear infinite;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
+
+@keyframes moveBackground {
+      from {
+        background-position: 0 0;
+      }
+      to {
+        background-position: 100% 0;
+      }
+    }
 
 .hero h1 {
   font-size: 3rem;
